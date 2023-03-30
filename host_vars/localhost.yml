@@ -31,8 +31,8 @@ ssh_config:
 
 # configure git config
 configure_git: true
-git_mail: info@niklas-steffen.de
-git_name: MayNiklas
+git_mail: git@chris-ge.de
+git_name: nonchris
 git_ignore:
   - "### macOS ###"
   - "# General"
