@@ -65,20 +65,30 @@ homebrew_taps:
 
 homebrew_apps:
   - adobe-creative-cloud
+  - ankiapp-anki
   - balenaetcher
   - discord
   - docker
   - element
   - firefox
-  - github
+  - forklift
+  # - github
+  - hex-fiend
+  - inkscape
   - jetbrains-toolbox
-  # - mactex-no-gui
+  - libreoffice
+  - postman
+  - python@3.9
+  - mactex-no-gui
   # - monitorcontrol
-  - plex
+  # - plex
   - signal
   - spotify
   - sublime-text
+  - sublime-merge
   - telegram
+  - texstudio
+  - thunderbird
   - visual-studio-code
   - vlc
   - yubico-authenticator
@@ -89,13 +99,15 @@ homebrew_packages:
   - ansible-lint
   - asciinema
   - docker-compose
-  - go
-  - hugo
+  - fish
+  # - go
+  # - hugo
   - iperf3
   - nmap
   - pre-commit
   - wakeonlan
   - wget
+  - wireshark
 
 # install stuff via app Store
 configure_mas: true
