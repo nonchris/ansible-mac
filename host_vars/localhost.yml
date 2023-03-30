@@ -1,14 +1,14 @@
 ---
 # set up Mac OS settings via defaults
-configure_osx: true
+configure_osx: false
 
 # set up gnupg as ssh-agent
-configure_yubikey: true
+configure_yubikey: false
 
-configure_shell: true
+configure_shell: false
 
 # generate /etc/hosts & ~/.ssh/config
-configure_hosts: true
+configure_hosts: false
 ssh_config:
   - { ip: 192.168.20.5, host: bob }
   - { ip: 192.168.5.20, host: aida, user: nik }
@@ -24,10 +24,10 @@ ssh_config:
   - { ip: netcup-x86-runner-1.lounge.rocks, host: netcup-x86-runner-1 }
 
 # generate ssh key
-configure_ssh: false
-ssh_path: ~/.ssh/id_rsa
-ssh_size: 4096
-ssh_comment: macbook
+# configure_ssh: false
+# ssh_path: ~/.ssh/id_rsa
+# ssh_size: 4096
+# ssh_comment: macbook
 
 # configure git config
 configure_git: true
