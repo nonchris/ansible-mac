@@ -1,6 +1,6 @@
 ---
 # roles:
-#   - src: 'https://github.com/MayNiklas/ansible-git.git'
+#   - src: 'https://github.com/nonchris/ansible-homebrew.git'
 #     name: ansible-git
 #     scm: git
 #   - name: mayniklas.yubikey_ssh
@@ -16,7 +16,7 @@
 #   - src: 'https://github.com/MayNiklas/ansible-homebrew.git'
 #     name: ansible-homebrew
 #     scm: git
-#   - src: 'https://github.com/MayNiklas/ansible-mas.git'
+#   - src: 'https://github.com/nonchris/ansible-mas.git'
 #     name: ansible-mas
 #     scm: git
 #   - src: 'https://github.com/MayNiklas/ansible-shell-mac.git'
