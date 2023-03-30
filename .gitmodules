@@ -10,15 +10,15 @@
 [submodule "roles/ansible-osx_defaults"]
 	path = roles/ansible-osx_defaults
 	url = https://github.com/MayNiklas/ansible-osx_defaults.git
-[submodule "roles/ansible-homebrew"]
-	path = roles/ansible-homebrew
-	url = https://github.com/MayNiklas/ansible-homebrew.git
-[submodule "roles/ansible-mas"]
-	path = roles/ansible-mas
-	url = https://github.com/MayNiklas/ansible-mas.git
 [submodule "roles/ansible-shell-mac"]
 	path = roles/ansible-shell-mac
 	url = https://github.com/MayNiklas/ansible-shell-mac.git
 [submodule "ansible-hosts"]
 	path = roles/ansible-hosts
 	url = https://github.com/MayNiklas/ansible-hosts.git
+[submodule "roles/ansible-homebrew"]
+	path = roles/ansible-homebrew
+	url = https://github.com/nonchris/ansible-homebrew
+[submodule "roles/ansible-mas"]
+	path = roles/ansible-mas
+	url = https://github.com/nonchris/ansible-mas
